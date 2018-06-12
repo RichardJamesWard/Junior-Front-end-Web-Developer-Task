@@ -9,7 +9,7 @@ $(document).ready(function() {
   // the AJAX Call
   let i = 0
   $("#imageDiv").on('click', '#image', function () {
-    var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+    var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
     var image = $("#image").attr("title");
     var flickrOptions = {
       tags: image,
