@@ -21,7 +21,7 @@ $(document).ready(function() {
         $('#imageDiv').html(`<img id="image" src="${photo}" title="${image}" alt="${image}">`);
         i = i +1;
       } else { 
-        $('#imageDiv').html( ` <img id ="image" src="img/otter.jpg" title="${image}" alt="${image}">`);
+        $('#imageDiv').html( ` <img id ="image" src="img/otter.JPG" title="${image}" alt="${image}">`);
         i = 0;
       }
     }
